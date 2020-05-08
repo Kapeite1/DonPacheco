@@ -1,0 +1,21 @@
+.LeftSideBar_container {
+    width: 100%;
+}
+
+.LeftSideBar_container__overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    transition: all ease 0.5s;
+}
+
+.LeftSideBar_container__overlay--show {
+    opacity: 0.5;
+    visibility: visible;
+}
+
+.LeftSideBar_container__overlay--hide {
+    opacity: 0;
+    visibility: hidden;
+}

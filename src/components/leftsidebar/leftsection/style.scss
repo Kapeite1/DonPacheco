@@ -1,0 +1,72 @@
+$left-siderbar-width: 15em;
+
+.LeftSideBar__LeftSection {
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    width: 65%;
+    height: 100%;
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-box-shadow: 0px 6px 56px -4px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 6px 56px -4px rgba(0,0,0,0.45);
+    box-shadow: 0px 6px 56px -4px rgba(0,0,0,0.45);
+    opacity: 0.95;
+    transition: all ease 0.3s;
+    font-family: "Segoe Print", cursive, sans-serif;
+    font-size: 16px;
+    .logobranco {
+        a {
+            margin-top: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            
+            width: 80%;
+        }
+    }
+    .opcoes {
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            li {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: gray;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                margin-bottom: 3%;
+                height: 5vh ;
+            }
+        }
+    }
+    .LeftSideBar__LeftSection__menuwrapper {
+        list-style-type: none;
+        padding: 0;
+        margin-right: 10px;
+        
+            
+    }
+}
+
+.LeftSideBar__LeftSection--show {
+    transform: translateX(0);
+    
+}
+
+.LeftSideBar__LeftSection--hide {
+    transform: translateX(-90em);
+}
+
+@media (min-width: 768px) {
+
+                li {
+                    font-size: 35px;
+                }
+
+}
