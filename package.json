@@ -9,11 +9,11 @@
     "express": "^4.17.1",
     "firebase": "^7.14.2",
     "mongoose": "^5.9.12",
-    "node-sass": "^4.14.0",
+    "node-sass": "^9.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
